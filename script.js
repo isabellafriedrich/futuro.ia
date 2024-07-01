@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Procura um biólogo marinho especialista que possa te ensinar mais sobre essa situação para que você possa chegar a raíz do problema.",
-                afirmacao: "afirmação"
+                afirmacao: "Agente 008 da FIN, segundo nossas informações, nessa missão você foi sábio e procurou um biólogo marinho especialista para entender melhor com o que estava lidando."
             },
             {
                 texto: "Vai até o porto conversar com os cidadãos e investigar por conta própria.",
-                afirmacao: "afirmação"
+                afirmacao: "Agente 008 da FIN, segundo nossas informações, nessa missão, sendo você um pesquisador nato, preferiu investigar por conta própria e fazer sua pesquisa na área, o que atrasou um pouco você."
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Você avalia um mapa térmico atual dos oceanos e procura onde há uma maior concentração anormal de águas quentes.",
-                afirmacao: "afirmação"
+                afirmacao: "E isso guiou você a sua primeira pista, onde você avaliou um mapa térmico atual dos oceanos com muita precisão."
             },
             {
                 texto: "Você faz um trato com alguns pescadores para eles te levarem a algum lugar do mar onde teve muitos relatos de animais marinhos mortos.",
-                afirmacao: "afirmação"
+                afirmacao: "Em sua primeira investigação você foi com alguns pescadores para o mar e ainda ganhou sushi de graça."
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Submergir em uma missão submarina para inspecionar pessoalmente a área suspeita e procurar por evidências físicas da máquina.",
-                afirmacao: "afirmação"
+                afirmacao: "Depois disso, você mergulhou no mar sem medo e procurou a máquina sem se importar com os tubarões que estavam ao seu redor. Que corajoso!"
             },
             {
                 texto: "Organizar uma patrulha aérea sobre a área suspeita para procurar sinais visuais da máquina ou de atividades criminosas.",
-                afirmacao: "afirmação"
+                afirmacao: "Após isso, você organizou uma patrulha aérea pela área, o que te ganhou tempo. Muito inteligente!"
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Você toma cuidado, pois tem certeza que a explosão alertou os criminosos da sua presença, então você  se esconde e monta uma operação de vigilância noturna, utilizando tecnologia avançada para monitorar movimentos suspeitos na área identificada.",
-                afirmacao: "afirmação"
+                afirmacao: "Ao final da sua missão, você destruiu a máquina garantindo a segurança do planeta. E foi cauteloso, decidindo se esconder e observar ao redor, para ter certeza da localização exata da base dos criminosos."
             },
             {
                 texto: "Visando interromper as atividades dos criminosos o mais rápido possível, você avança em direção a ilha, pois é o local mais provável para a base dos criminosos.",
-                afirmacao: "afirmação"
+                afirmacao: "Ao final da sua missão, você destruiu a máquina garantindo a segurança do planeta. Seguindo seus instintos, você foi ousado e seguiu em direção a ilha. Você também é muito sortudo, e realmente encontrou a base lá."
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Invade a base e cuida dos criminosos com seus próprios punhos e balas, entrando em uma luta arriscada e perigosa. Mas você não pode deixar eles fugirem! Confiando totalmente em suas habilidades, afinal, você é o melhor agente que o mundo já viu.",
-                afirmacao: "afirmação"
+                afirmacao: "No fim, depois de uma luta acirrada digna dos filmes do Jakie Chan, você capturou com sucesso os criminosos e salvou o mundo, impedindo os caras maus de causarem mais estragos. Parabéns agente! Você concluiu sua missão com louvor, e é com prazer que posso dizer que você foi promovido. "
             },
             {
                 texto: "Sendo mais cuidadoso, você passa a localização para a FIN e pede para eles mandarem reforços imediatamente para preder esses criminosos. Afinal, não vale a pena entrar em uma batalha onde você está em desvantagem.",
-                afirmacao: "afirmação"
+                afirmacao: "No fim, você preferiu ser mais cuidadoso e não se colocar em risco e chamou uma equipe para te ajudar. Infelizmente, os reforços não chegaram a tempo e os criminosos fugiram. Sua missão foi parcialmente concluída, e os criminosos ainda estam a solta. Os custos para a busca e perseguição dos bandidos foram descontados do seu salário. Mais sorte na próxima vez agente..."
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "RELATÓRIO DE MISSÃO:";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }

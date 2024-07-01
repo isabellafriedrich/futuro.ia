@@ -32,40 +32,40 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Depois de muitas pesquisas, você identifica uma região com uma alta concentração de águas quentes, indicando possível atividade da máquina dos criminosos. Pegando um barco até o local, você avalia os mares identificando as anomalias por perto. Agora, para avançar na sua investigação, você decide...",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Submergir em uma missão submarina para inspecionar pessoalmente a área suspeita e procurar por evidências físicas da máquina.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Organizar uma patrulha aérea sobre a área suspeita para procurar sinais visuais da máquina ou de atividades criminosas.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Com base nas evidências coletadas até agora, você tem uma suspeita mais forte sobre a localização da máquina que está prejudicando os oceanos. Depois de avisar a FIN, você coloca seu traje de mergulho especializado para se proteger, e mergulha em direção a máquina que está alojada no fundo do oceano Pacífico, perto de uma ilha onde não há sinal nenhum de vida marinha. Ao alcançar a máquina, você conecta um dispositivo para roubar os dados e destruir a máquina de uma vez por todas. Voltando rápidamente a superfície, você sobe em seu barco a tempo de se salvar da explosão que faz ondas fortes chacoalharem ao seu redor. Você explodiu a máquina! E agora?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Você toma cuidado, pois tem certeza que a explosão alertou os criminosos da sua presença, então você  se esconde e monta uma operação de vigilância noturna, utilizando tecnologia avançada para monitorar movimentos suspeitos na área identificada.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Visando interromper as atividades dos criminosos o mais rápido possível, você avança em direção a ilha, pois é o local mais provável para a base dos criminosos.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Chegando ao final da sua missão, vocẽ encontra a base dos criminosos escondida no interior da ilha! Agora, o mundo está em suas mãos, você...",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+                texto: "Invade a base e cuida dos criminosos com seus próprios punhos e balas, entrando em uma luta arriscada e perigosa. Mas você não pode deixar eles fugirem! Confiando totalmente em suas habilidades, afinal, você é o melhor agente que o mundo já viu.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+                texto: "Sendo mais cuidadoso, você passa a localização para a FIN e pede para eles mandarem reforços imediatamente para preder esses criminosos. Afinal, não vale a pena entrar em uma batalha onde você está em desvantagem.",
                 afirmacao: "afirmação"
             }
         ]
